@@ -20,6 +20,8 @@ jobs:
         run: dotnet workload install maui-android
       - name: Install Ios
         run: dotnet workload install maui-ios    
+      - name: Install maccatalyst
+        run: dotnet workload install maui-maccatalyst
       - name: Restore dependencies
         run: dotnet restore ./src/CSharp/Maui/EasyMicroservices.UI.MauiKits.sln
       - name: Build
