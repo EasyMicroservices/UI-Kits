@@ -28,6 +28,6 @@ jobs:
       - name: Test
         run: dotnet test ./src/CSharp/Maui/EasyMicroservices.UI.MauiKits.sln --no-build --verbosity normal
       - name: Create the package
-        run: dotnet pack ./src/CSharp/Maui/EasyMicroservices.UI.MauiKits.sln --output nupkgs
+        run: dotnet pack ./src/CSharp/Maui/EasyMicroservices.UI.MauiKits.MaterialUI/EasyMicroservices.UI.MauiKits.MaterialUI.csproj --output nupkgs
       - name: Publish the package to NuGet.org
         run: dotnet nuget push nupkgs\*.nupkg -k ${{secrets.NUGET_KEY}} -s https://api.nuget.org/v3/index.json --skip-duplicate

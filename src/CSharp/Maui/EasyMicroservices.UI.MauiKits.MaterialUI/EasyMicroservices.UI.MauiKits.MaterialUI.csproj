@@ -17,7 +17,6 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 
     <Authors>EasyMicroservices</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.0.1</Version>
     <Description>maui kits</Description>
     <Copyright>EasyMicroservices@gmail.com</Copyright>
