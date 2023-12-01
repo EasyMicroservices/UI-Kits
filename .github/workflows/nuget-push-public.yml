@@ -15,6 +15,8 @@ jobs:
           DOTNET_INSTALL_DIR: /usr/share/dotnet
       - name: Install Android
         run: dotnet workload install maui-android
+      - name: Install Ios
+        run: dotnet workload install maui-ios    
       - name: Restore dependencies
         run: dotnet restore ./src/CSharp/Maui/EasyMicroservices.UI.MauiKits.sln
       - name: Build

@@ -16,6 +16,8 @@ jobs:
             7.0.x
       - name: Install Android
         run: dotnet workload install maui-android
+      - name: Install Ios
+        run: dotnet workload install maui-ios        
       - name: Run dotnet format
         id: format
         uses: jfversluis/dotnet-format@v1.0.5
