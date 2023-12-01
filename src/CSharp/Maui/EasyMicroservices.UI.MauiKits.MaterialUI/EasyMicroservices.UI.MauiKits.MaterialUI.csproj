@@ -17,13 +17,13 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 
     <Authors>EasyMicroservices</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.0.1</Version>
     <Description>maui kits</Description>
     <Copyright>EasyMicroservices@gmail.com</Copyright>
     <PackageTags>maui,kit,kits,component,components,ui,uiframework</PackageTags>
     <PackageProjectUrl>https://github.com/EasyMicroservices/UI-Kits/</PackageProjectUrl>
-	</PropertyGroup>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
 	<!--<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="7.0.0" />
