@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyMicroservices.UI.MauiKits.MaterialUI.Resources.Colors.LightBlueColorStyle">
+    <Color x:Key="PrimaryColor">#03A9F4</Color>
+    <Color x:Key="Lighten5">#E1F5FE</Color>
+    <Color x:Key="Lighten4">#B3E5FC</Color>
+    <Color x:Key="Lighten3">#81D4FA</Color>
+    <Color x:Key="Lighten2">#4FC3F7</Color>
+    <Color x:Key="Lighten1">#29B6F6</Color>
+    <Color x:Key="Darken1">#039BE5</Color>
+    <Color x:Key="Darken2">#0288D1</Color>
+    <Color x:Key="Darken3">#0277BD</Color>
+    <Color x:Key="Darken4">#01579B</Color>
+    <Color x:Key="Accent1">#80D8FF</Color>
+    <Color x:Key="Accent2">#40C4FF</Color>
+    <Color x:Key="Accent3">#00B0FF</Color>
+    <Color x:Key="Accent4">#0091EA</Color>
+</ResourceDictionary>
