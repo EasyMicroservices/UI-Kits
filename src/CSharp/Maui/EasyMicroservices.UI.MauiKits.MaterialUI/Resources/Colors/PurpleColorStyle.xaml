@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyMicroservices.UI.MauiKits.MaterialUI.Resources.Colors.PurpleColorStyle">
+    <Color x:Key="PrimaryColor">#9C27B0</Color>
+    <Color x:Key="Lighten5Color">#F3E5F5</Color>
+    <Color x:Key="Lighten4Color">#E1BEE7</Color>
+    <Color x:Key="Lighten3Color">#CE93D8</Color>
+    <Color x:Key="Lighten2Color">#BA68C8</Color>
+    <Color x:Key="Lighten1Color">#AB47BC</Color>
+    <Color x:Key="Darken1Color">#8E24AA</Color>
+    <Color x:Key="Darken2Color">#7B1FA2</Color>
+    <Color x:Key="Darken3Color">#6A1B9A</Color>
+    <Color x:Key="Darken4Color">#4A148C</Color>
+    <Color x:Key="Accent1Color">#EA80FC</Color>
+    <Color x:Key="Accent2Color">#E040FB</Color>
+    <Color x:Key="Accent3Color">#D500F9</Color>
+    <Color x:Key="Accent4Color">#AA00FF</Color>
+</ResourceDictionary>
