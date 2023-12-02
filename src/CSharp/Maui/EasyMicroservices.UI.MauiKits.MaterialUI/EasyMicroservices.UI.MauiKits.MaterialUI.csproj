@@ -48,6 +48,9 @@
 	  <MauiXaml Update="Resources\Colors\CyanColorStyle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Colors\DeepOrangeColorStyle.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Colors\DeepPurpleColorStyle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
