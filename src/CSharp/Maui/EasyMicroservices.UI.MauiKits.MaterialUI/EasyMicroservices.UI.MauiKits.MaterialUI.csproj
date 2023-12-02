@@ -39,6 +39,9 @@
 	  <MauiXaml Update="Controls\MaterialButton.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Colors\AmberColorStyle.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Colors\BlueColorStyle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
