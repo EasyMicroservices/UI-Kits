@@ -66,6 +66,9 @@
 	  <MauiXaml Update="Resources\Colors\LimeColorStyle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Colors\OrangeColorStyle.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Colors\PinkColorStyle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
