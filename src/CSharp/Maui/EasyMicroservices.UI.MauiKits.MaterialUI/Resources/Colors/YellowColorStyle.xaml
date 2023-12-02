@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyMicroservices.UI.MauiKits.MaterialUI.Resources.Colors.YellowColorStyle">
+    <Color x:Key="PrimaryColor">#FFEB3B</Color>
+    <Color x:Key="Lighten5">#FFFDE7</Color>
+    <Color x:Key="Lighten4">#FFF9C4</Color>
+    <Color x:Key="Lighten3">#FFF59D</Color>
+    <Color x:Key="Lighten2">#FFF176</Color>
+    <Color x:Key="Lighten1">#FFEE58</Color>
+    <Color x:Key="Darken1">#FDD835</Color>
+    <Color x:Key="Darken2">#FBC02D</Color>
+    <Color x:Key="Darken3">#F9A825</Color>
+    <Color x:Key="Darken4">#F57F17</Color>
+    <Color x:Key="Accent1">#FFFF8D</Color>
+    <Color x:Key="Accent2">#FFFF00</Color>
+    <Color x:Key="Accent3">#FFEA00</Color>
+    <Color x:Key="Accent4">#FFD600</Color>
+</ResourceDictionary>
