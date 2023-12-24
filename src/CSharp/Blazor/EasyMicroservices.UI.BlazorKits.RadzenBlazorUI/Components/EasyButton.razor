@@ -1,0 +1,13 @@
+﻿@using EasyMicroservices.UI.BlazorKits.Components
+@using EasyMicroservices.UI.BlazorKits.RadzenBlazorUI.Converters
+@using Radzen
+@using Radzen.Blazor
+
+@inherits EasyButtonBase
+
+<RadzenButton @ref="Control"
+              Disabled="@(!IsEnabled)"
+              Variant="@DataTypeConverter.ConvertVariant(Variant)"
+              ButtonStyle="@(DataTypeConverter.ConvertButtonStyle(Color))">@ChildContent</RadzenButton>
+
+    @* Color="@(DataTypeConverter.ConvertColor(Color))" *@

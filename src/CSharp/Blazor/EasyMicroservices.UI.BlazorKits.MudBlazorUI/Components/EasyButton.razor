@@ -1,0 +1,12 @@
+﻿@using EasyMicroservices.UI.BlazorKits.Components
+@using EasyMicroservices.UI.BlazorKits.MudBlazorUI.Converters
+@using MudBlazor
+
+@inherits EasyButtonBase
+
+<MudButton
+    @ref="Control"
+    Disabled="@(!IsEnabled)"
+    Color="@(DataTypeConverter.ConvertColor(Color))"
+    Variant="@DataTypeConverter.ConvertVariant(Variant)"
+>@ChildContent</MudButton>
